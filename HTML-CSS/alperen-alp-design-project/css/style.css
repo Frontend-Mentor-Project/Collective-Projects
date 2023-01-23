@@ -1,0 +1,137 @@
+body{
+    background-color: #3e3e3e;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+aside{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;   
+    margin: 0 25px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-part1{
+    background-color: #f1453d;
+    width: 100%;
+    height: 48.5%;
+    
+}
+
+.menu-part2{
+    background-color: #ffffff;
+    width: 100%;
+    height: 48.5%;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main{
+    width: 100%;   
+    margin: 0 25px 0 0;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 23.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-part1{
+    background-color: #2cc5cf;
+    width: 44%;
+    height: 100%;
+}
+
+.header-part2{
+    background-color: #d6b26a;
+    width: 54%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 73.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left{
+    width: 74%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+    width: 100%;
+    height: 61%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-part1{
+    width: 38.5%;
+    height: 100%;
+    background-color: #d6b26a;
+}
+
+.content-part2{
+    width: 58.5%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+footer{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-part1{
+    width: 48.5%;
+    height: 100%;
+    background-color: #f1453d;
+}
+
+.footer-part2{
+    width: 48.5%;
+    height: 100%;
+    background-color: #2cc5cf;
+}
+
+
+.container-right{
+    width: 24%;
+    height: 100%;
+    background-color: #f1453d;
+}
+
