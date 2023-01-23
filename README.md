@@ -1,2 +1,29 @@
-# Collective-Projects
-Kendini geliştirmek için PR at!
+# REPONUN AMACI!
+Frontend alanına yeni başlamış, orta veya ileri seviye de ki kişiler için kendinizi geliştirebileceğiniz projeler verilecek. Eğer bu proje listesine göre SIRAYLA ilerlerseniz ve İSTİKRARLI olursanız kendinizi geliştireceğinizden EMİN olabilirsiniz. (Projeler basit gelse bile sıfırdan başlamanız önerilir. Hem eksikleriniz varsa görmüş olursunuz hem de zaten kolay geliyorsa kısa sürede yapar geçersiniz.) Projede yapamadığınız yerler olursa o kısmı Discord sunucumuzda soru-sor kanalında sorabilirsiniz. Projeniz bittiği zaman kendinizi geliştirmek için PR atmak zorundasınız! Verilen projelerden geri dönüş almak istiyor ve kodlarınız review edilsin istiyorsanız PR atmanız yeterli. Sadece HTML ile geliştirilen projeler HTML klasörüne, CSS ile geliştirilen projeler CSS klasörüne atılmalı. Aynı şekilde diğer dil ve frameworklerle ilgili geliştirilen projeler de ilgili klasörlere atılmalı.
+
+- Dikkat edilmesi gereken hususlar:
+  - Projeleri yaparken Klasörleme yapısına dikkat edin! Örnek: [Basit Klasörleme Yapısı](http://www.digitalforge.com.au/DIG252/week1/images/file_structure.jpg)
+  - Projeleri yaparken CLASS isimlendirmelerine dikkat edin! Örnek: [İsimlendirme Metodolojisi (BEM)](https://en.bem.info/methodology/)
+  - Projeleri yaparken HTML5 yapısına dikkat edin! Örnek: [HTML5 Yapısı](https://css-tricks.com/snippets/html/html5-page-structure/)
+  - Link olarak atanmış projeleri tasarlarken incele kısmında __RENK ve FOTOĞRAFLAR__ dışında başka bir şey almak KESİNLİKLE YASAKTIR!
+  - Her bir projeye süreler atanacak. Projeyi bu süreler arasında yapmanız gerekmektedir. <br />
+  ***NOT: PROJELER KOLAYDAN ZORA DOĞRU GİTMEKTEDİR.***
+
+
+<!--
+
+## HTML
+
+## CSS
+
+## SCSS
+
+## BOOTSTRAP - TAILWIND CSS - MATERIAL UI - CHAKRA UI
+
+## VERİ YAPILARI VE ALGORİTMALAR (DATA STRUCTURES)
+
+## JAVASCRIPT
+
+## REACT - VUE - ANGULAR
+
+-->
