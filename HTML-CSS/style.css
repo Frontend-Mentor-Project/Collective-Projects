@@ -1,0 +1,138 @@
+header{
+    background-color: antiquewhite;
+    width: 1400px;
+    height: 728px;
+}
+
+.kutu1{
+    width: 250px;
+    height: 350px; ;
+    background-color: darkred;
+    border-style: solid;
+    border-width: 8px;
+    
+}
+.kutu2{
+    width: 350px;
+    height: 200px; ;
+    background-color: teal;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 0px;
+            right: 200px;
+            left: 268px;
+            height: 200px;
+            width: 472px;
+            margin: 8px 0;
+            
+}
+.kutu3{
+    width: 350px;
+    height: 200px; ;
+    background-color: darkgoldenrod;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 0px;
+            right: 0px;
+            left: 750px;
+            height: 200px;
+            width: 580px;
+            margin: 8px 0;
+            border-radius: 5px;
+}
+.kutu4{
+    background-color: white;
+    border-style: solid;
+    border-width: 8px;
+    border-top: 0px;
+    bottom: 100px;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            height: 353px;
+            width: 250px;
+            
+            
+}
+.kutu5{
+    width: 350px;
+    height: 200px; ;
+    background-color: darkgoldenrod;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 210px;
+            right: 200px;
+            left: 268px;
+            height: 260px;
+            width: 300px;
+            margin: 8px 0;
+}
+.kutu6{
+    width: 350px;
+    height: 200px; ;
+    background-color: white;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 210px;
+            right: 200px;
+            left: 578px;
+            height: 260px;
+            width: 450px;
+            margin: 8px 0;
+}
+.kutu7{
+    width: 350px;
+    height: 200px; ;
+    background-color: darkred;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 210px;
+            right: 0px;
+            left: 1038px;
+            height: 501px;
+            width: 292px;
+            margin: 8px 0;
+            border-radius: 5px;
+}
+.kutu8{
+    width: 350px;
+    height: 200px; ;
+    background-color: darkred;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 480px;
+            right: 200px;
+            left: 268px;
+            height: 231px;
+            width: 476px;
+            margin: 8px 0;
+}
+.kutu9{
+    width: 350px;
+    height: 200px; ;
+    background-color: teal;
+    border-style: solid;
+    border-width: 8px;
+    position:absolute;
+    bottom: 100px;
+            top: 480px;
+            right: 350px;
+            left: 753px;
+            height: 231px;
+            width: 276px;
+            margin: 8px 0;
+}
+
+
