@@ -1,0 +1,114 @@
+/*General Css Code Block*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+#container{
+    max-width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+/*Header Css Code Block*/
+.header{
+    width: 100%;
+}
+.header ._header-nav ._topSide-nav{
+    display: flex;
+}
+.header ._header-nav ._topSide-nav ._nav-item-logo{
+    width: 25vw;
+    height: 15vh;
+    background-color: aqua;
+}
+.header ._header-nav ._topSide-nav ._nav-item-rightSide{
+    width: 100vw;
+    height: 15vh;
+    background-color: #6E8238;
+}
+.header ._header-nav ._nav-list ul{
+    width: 50vw;
+    height: auto;
+    background-color: #A3904D;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    color: #fff;
+}
+.header ._header-nav ._nav-list ._nav-list-item{
+    list-style: none;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+/*Section1 Code Block*/
+.section-img{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+section ._section-title{
+    color: #4f4f4f;
+    text-align: center;
+}
+._section-article-1{
+    display: flex;
+    justify-content: space-between;
+}
+._section-article-2{
+    display: flex;
+    justify-content: space-between;
+}
+._section-article-1 > ._article-item{
+    width: 12vw;
+    height: 20vh;
+    background-color: #44948A;
+    margin-bottom: 1.3rem;
+    margin-top: 2rem;
+}
+._section-article-2 > ._article-item{
+    width: 12vw;
+    height: 20vh;
+    background-color: #44948A;
+}
+/*Section2 Code Block*/
+.abouth-section{
+    background-color: #336981;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+}
+.abouth-section ._abouth ._abouth-title{
+    font-size: 2em;
+    margin-bottom: 1rem;
+}
+/*footer*/
+footer{
+    padding: 1.3rem;
+}
+form{
+    padding: 2rem;
+    background-color: #D9D9D9;
+}
+label{
+    display: block;
+}
+input{
+    padding: .5rem 3rem;
+    background-color: #656565;
+    border-style: none;
+}
+textarea{
+    padding: 1rem;
+    background-color: #656565;
+    border-style: none;
+}
+._footer-title{
+    text-align: center;
+    color: #464646;
+}
