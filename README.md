@@ -11,4 +11,7 @@ Frontend alanına yeni başlamış, orta veya ileri seviyedeki kişiler için ke
 -   Projeleri yaparken HTML5 yapısına dikkat edin! Örnek: [HTML5 Yapısı](https://css-tricks.com/snippets/html/html5-page-structure/)
 -   Link olarak atanmış projeleri tasarlarken incele kısmında **RENK ve FOTOĞRAFLAR** dışında başka bir şey almak KESİNLİKLE YASAKTIR!
 -   Her bir projeye süreler atanacak. Projeyi bu süreler arasında yapmanız gerekmektedir.  
-    _**NOT: PROJELER KOLAYDAN ZORA DOĞRU GİTMEKTEDİR.**_
+
+<br />
+
+   _**NOT: PROJELER KOLAYDAN ZORA DOĞRU GİTMEKTEDİR.**_
