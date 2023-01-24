@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.container{
+  width: 1375px;
+  margin: auto;
+}
+header {
+  display: flex;
+  background-color: #6e8238;
+  width: 100%;
+  height: 261px;
+  flex-direction: column;
+}
+.logo{
+  width: 10%;
+  height: 165px;
+  width: 275px;
+  background-color: #00B8AD;
+}
+.header-menu{
+  background-color: #A3904D;
+  padding:59px 26px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.header-menu>a{
+  display: block;
+  
+}
