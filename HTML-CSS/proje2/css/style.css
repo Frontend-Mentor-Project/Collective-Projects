@@ -1,0 +1,212 @@
+.container{
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Header codes*/
+
+.header{
+    width: auto;
+}
+
+.top-nav{
+    display: flex;
+    height: auto;
+}
+
+.top-nav .nav-itemleft {
+    background-color: #6E8238;
+    height:auto;
+    width: 80%;
+}
+
+.top-nav .nav-itemright{
+    background-color: #00B8AD;
+    height: 15vh;
+    width:20%;
+}
+
+nav {
+    background-color: #A3904D;
+    height: auto;
+    width: auto;
+    display: flex;
+    gap: 36px;
+    color: #fff;
+}
+
+.nav .option a {
+    width: auto;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+    padding: 0.5rem;
+    margin-left: 30px;
+}
+
+.home {
+    width: auto;
+    height: auto;
+    background-color: #E2E2E2;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0;
+    margin-top: 40px;
+    color: #4F4F4F;
+}
+
+.home-grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.home-grid .home-item {
+    width: 170px;
+    height: 170px;
+    background-color:#44948A;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+
+.about-h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    color: #ffffff;
+    margin: 30px;
+}
+
+section .about {
+    background-color: #336981;
+    width: auto;
+    height: auto;
+    font-family:  sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #ffffff;
+    line-height: 30px;
+    padding: 5px; /*kenarları aynı renkle şişirmek için*/
+    margin-top: 30px;  /*aralarda beyaz boşluk bırakmak için*/
+}
+
+.service {
+    width: auto;
+    height: auto;
+    background-color: #E2E2E2;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0;
+    color: #464646;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.service .service-grid{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    padding: 20px;
+}
+
+.service .serv-grid-item {
+    width: 170px;
+    height: 170px;
+    background-color:#44948A;
+    justify-content: space-evenly;
+
+    margin-bottom: 10px;
+}
+
+.contact{
+    width: 95%;
+    height:auto;
+    background-color: #E2E2E2;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 64px;
+    line-height: 77px;
+    margin-top: 40px;
+    color: #4F4F4F;
+    margin-left: 2.5%;
+    padding: 10px;
+}
+
+.contact .contact-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #343434;
+    margin-left: 20px;
+}
+
+.contact .name {
+    width:35%;
+    height: 30px;
+    background-color: #656565;
+    justify-content: start;
+}
+
+.contact .surname{
+    width:35%;
+    height: 30px;
+    background-color: #656565;
+}
+
+.contact .message{
+    width:35%;
+    height: 120px;
+    background-color: #656565;
+}
+
+.contact .send{
+    width: auto;
+    height: auto;
+    margin-left: 32%;
+    background-color: #656565;
+}
+/*Header codes end*/
+
+.footer {
+    background-color: #2E2E2E;
+    width: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.footer .footer-a{
+    color: #68C9FF;
+}
+
+
+
