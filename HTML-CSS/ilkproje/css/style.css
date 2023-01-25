@@ -1,6 +1,5 @@
 .container {
     display: grid;
-    gr
 }
 
 #rectangle  {
@@ -15,10 +14,9 @@
     background-color:#f1453d ;
     border-right:10px solid #413c3c;
     border-bottom: 10px solid #413c3c ;
-
 }
 
-#rectangle-white{
+#rectangle-white  {
     width: 180px;
     height: 220px;
     background-color:#ffff ;
@@ -56,7 +54,6 @@
     height: 120px;
     background-color:#d6b26a;
     border-bottom:10px solid #413c3c;
-
 }
 
 #rectangle-white3 {
