@@ -22,6 +22,8 @@
 .section-title{
     font-size: 64px;
     text-align: center;
+    font-weight: 700;
+    
 }
 
 .section-container {
@@ -31,43 +33,51 @@
 
 .item {
     background-color: #44948A;
-    width: 300px;
-    height: 300px;
-    margin: 30px;
+    width: 290px;
+    height: 290px;
+    
 
 }
 
 /* *******************HEADER SECTİON************* */
 
 .logo {
-    background-color: aqua;
+    background-color: #00B8AD;
     height: 165px;
     width: 15%;
     min-width: 200px;
 }
 
 .header-topbar {
-    background-color: green;
+    background-color: #6E8238;
     width: 100%;
 }
+
+/* *******************NAVBAR SECTİON************* */
 
 
 nav {
     background-color: #A3904D;
 }
 
-nav ul {
+nav ul  {
     list-style-type: none;
     display: flex;
-
 }
 
 nav ul li {
-    font-family: 'Catamaran', sans-serif;
     padding: 20px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif;
     color: white;
     font-size: 36px;
+    font-weight: 700;
 }
+
+
 
 /* *******************HOME SECTİON************* */
 
@@ -81,7 +91,7 @@ nav ul li {
     display: grid;
     gap: 30px 200px;
     grid-template-columns: auto auto auto;
-    margin-left: 100px;
+    margin-left: 70px;
 
 }
 
@@ -115,6 +125,7 @@ nav ul li {
     display: grid;
     gap: 30px 70px;
     grid-template-columns: auto auto auto auto;
+    margin-left: 30px;
 
 }
 
@@ -130,22 +141,30 @@ nav ul li {
 
 .contact-form {
     font-size: 16px;
-    width: 20%;
-    padding: 20px;
+    width: 33%;
+    padding: 50px 20px;
 }
 
 .contact-form label {
+    font-weight: 700;
     width: 100%;
+    
 }
 
 .contact-form input {
     background-color: #656565;
     width: 100%;
+    border-style: none;
+    height: 50px;
+    margin-bottom: 10px;
+    
 }
 
 .contact-form textarea {
     background-color: #656565;
     width: 100%;
+    height: 157px;
+
 }
 
 .contact-form button {
@@ -156,19 +175,23 @@ nav ul li {
     background-color: #656565;
     color: white;
     border-style: none;
-    padding: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 700;
 }
 
 /* *******************FOOTER SECTİON************* */
 
 footer {
     background-color: #2E2E2E;
-    padding: 20px;
+    padding: 30px;
     color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
 
 .footer-text {
-    color: aqua;
+    color: #68C9FF;
 }
