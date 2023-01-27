@@ -1,0 +1,220 @@
+
+/* *************************COMMON CSS******************* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 2rem;
+    color: #252525;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    color: grey ;
+    font-weight: 500;
+    
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    text-align: center;
+  }
+
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bg-image.jpg');
+    background-attachment: fixed;
+}
+
+.img-fluid {
+    object-fit: cover;
+    max-width:100%;
+    max-height:100%;
+    
+}
+
+/* *************************HEADER CSS******************* */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+.header-item {
+    margin: 1rem 13%;
+    padding: 5px 10px;
+}
+
+/* *************************HOME CSS******************* */
+  
+.main-container {
+    margin: 10% 20%;
+}
+.main-container-title {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.main-container-input {
+    margin-left: 20%;
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.main-container-button {
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+/* *************************FEATURES CSS******************* */
+
+.features-section{
+    margin-top: 50vh;
+    background-color: #F0F8FF;
+    padding: 150px 50px;   
+}
+
+.features-container{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+
+.col{
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+
+.col img {
+    padding: 10px;
+}
+
+/* *************************GRID CSS******************* */
+
+
+.grid-section{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.grid-section > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+    
+    
+}
+
+.margin100{
+    margin: 0px 100px;
+    margin-top: 50px;
+}
+
+/**************************COMMENTS CSS********************/
+
+
+.comments-section{
+    background-color: #F0F8FF;
+    padding: 50px;   
+}
+
+.comments-container{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.avatar-img {
+    height: 200px;
+}
+
+/**************************FOOTER CSS********************/
+
+
+.footer-section {
+    background-color: #F0F8FF;
+    padding: 50px;
+    padding-bottom: 25px;
+   
+    
+}
+
+.footer-menu {
+    list-style-type: none;
+
+}
+
+.footer-menu-item {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.footer-menu-item a {
+    color: #405cf5;
+}
+
+.icon {
+    height: 30px;
+    margin: 20px 10px;
+}
+
+.footer-container {
+
+    margin: 0 100px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
