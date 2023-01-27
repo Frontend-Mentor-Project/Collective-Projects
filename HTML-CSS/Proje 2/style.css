@@ -183,6 +183,19 @@ button {
 
 .footer .footer-link {
     color: #215ED7;
+    position: relative;
+}
+
+.footer .footer-link:not(:last-child):after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
 }
 
 .footer .copyright-text {
