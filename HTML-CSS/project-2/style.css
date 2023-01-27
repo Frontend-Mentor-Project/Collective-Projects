@@ -7,6 +7,7 @@
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
+
 body {
   background-color: white;
 }
@@ -16,6 +17,7 @@ header {
   height: 10rem;
   background-color: #a3904d;
   position: fixed;
+  top: 0;
   z-index: 100;
 }
 
@@ -28,7 +30,7 @@ header .top {
 .top .left {
   background-color: #00b8ad;
   float: left;
-  width: 15rem;
+  width: 15%;
   height: 5.5rem;
 }
 
@@ -36,11 +38,13 @@ header .top {
   background-color: #6e8238;
   float: right;
 }
+
 nav {
   margin: 0.3rem 1rem;
   padding: 1rem;
   display: flex;
 }
+
 .nav-link {
   padding: 0 0.8rem;
   font-size: 2rem;
@@ -51,7 +55,7 @@ nav {
 
 .container {
   position: relative;
-  margin-top: 11rem;
+  margin-top: 12rem;
   margin-bottom: 6rem;
 }
 
@@ -63,14 +67,23 @@ nav {
   background-color: #e2e2e2;
 }
 
-.content-1 .content-1-title {
+.content-title {
   font-weight: 700;
-  color: #4f4f4f;
   font-size: 4rem;
   text-align: center;
 }
 
-.content-1 .boxes {
+.title-1,
+.title-3,
+.title-4 {
+  color: #4f4f4f;
+}
+
+.title-2{
+  color: #fff;
+}
+
+.boxes {
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
@@ -83,27 +96,25 @@ nav {
 }
 
 .content-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
   width: 100vw;
-  height: 35rem;
-  background-color: #336981;
-}
-
-.content-2 .content-2-title {
-  font-weight: 700;
-  padding-bottom: 1rem;
-  color: #fff;
-  font-size: 4rem;
   text-align: center;
+  background-color: #336981;
 }
 
 .content-2 .text {
   font-style: normal;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #fff;
+  width: 90%;
   line-height: 1.5rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .container .content-3 {
@@ -111,13 +122,6 @@ nav {
   height: 50rem;
   width: 100vw;
   background-color: #e2e2e2;
-}
-
-.content-3 .content-3-title {
-  font-weight: 700;
-  color: #4f4f4f;
-  font-size: 4rem;
-  text-align: center;
 }
 
 .content-3 .boxes {
@@ -133,7 +137,6 @@ nav {
 }
 
 .content-4 {
-  position: relative;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -141,12 +144,9 @@ nav {
   width: 1288px;
   background-color: #e2e2e2;
 }
-.content-4 .content-4-title {
-  font-weight: 700;
-  color: #464646;
-  font-size: 4rem;
-  text-align: center;
-  margin-top: 2rem;
+
+.title-4{
+  margin-top: 1rem;
 }
 
 form {
@@ -158,7 +158,7 @@ form {
 }
 
 .formItem {
-  padding: .1rem 2rem;
+  padding: 0.1rem 2rem;
 }
 
 input[type="text"] {
@@ -177,7 +177,7 @@ textarea {
   border: none;
 }
 
-.btn{
+.btn {
   background-color: #656565;
   outline: none;
   font-size: 1.2rem;
@@ -189,12 +189,11 @@ textarea {
   font-weight: bold;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   text-align: center;
   background-color: #2e2e2e;
@@ -209,4 +208,20 @@ footer p {
 
 footer p span {
   color: #68c9ff;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    font-size: 1.35rem;
+  }
+
+  .box-item {
+    width: 25%;
+    margin-top: 2rem;
+    height: 12rem;
+  }
+  .content-4{
+    width: 100vw;
+    height: 100vh;
+  }
 }
