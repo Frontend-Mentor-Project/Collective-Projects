@@ -1,0 +1,163 @@
+/*General Css Code*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Header Css Code*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 1rem;
+}
+header .btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0B5ED7;
+    color: #fff;
+}
+/*Content Css Code*/
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 54vh;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content ._content-title{
+    width: 21vw;
+    font-size: 1.5em;
+    color: #fff;
+    
+}
+.content ._content-form{
+    margin-top: 3rem;
+}
+.content ._content-form form input{
+    width: 18vw;
+    height: 5vh;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 4px;
+    border: none;
+}
+.content ._content-form form .btn{
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 4px;
+}
+/*content-work css code*/
+.content-work{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+.content-work ._content-work-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    text-align: center;
+}
+.content-work ._content-work-article > h3{
+    font-size: 1.4em;
+}
+.content-work ._content-work-article > h3 , .content-work ._content-work-article > p ,.content-work ._content-work-article > i{
+    margin-bottom: 1rem;
+}
+.content-work ._content-work-article > p{
+    width: 10vw;
+}
+/*info article code*/
+.info ._info-article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info ._info_article-text ._text{
+    width: 30vw;
+    padding: 2rem;
+    margin-right: 10rem;
+    margin-left: 9rem;
+}
+.info ._info_article-img{
+    width: 49.5vw;
+    display: block;
+}
+.info ._info_article-img img{
+    display: block;
+    width: 100%;
+    height: 25vw;
+}
+/*people article code*/
+.people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.people h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2em;
+}
+.people ._people-article{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.people ._people-article ._people-article-item img{
+    border-radius: 50%;
+    object-fit: fill;
+    height: 10vw;
+    width: 20vh;
+}
+.people ._people-article ._people-article-item h4{
+    font-size: 1.5em;
+}
+.people ._people-article ._people-article-item img , .people ._people-article ._people-article-item h4 , .people ._people-article ._people-article-item p{
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+/*footer code*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 2rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: firebrick;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ._footer-social-media i{
+    margin-right: 3rem;
+    color: #0B5ED7;
+}
