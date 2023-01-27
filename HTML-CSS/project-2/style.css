@@ -5,20 +5,23 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+body {
+  background-color: white;
 }
 
-/* header start */
 header {
   width: 100vw;
   height: 10rem;
   background-color: #a3904d;
   position: fixed;
+  z-index: 100;
 }
 
 header .top {
   width: 100vw;
-  height: 5rem;
+  height: 5.5rem;
   background-color: #6e8238;
 }
 
@@ -26,7 +29,7 @@ header .top {
   background-color: #00b8ad;
   float: left;
   width: 15rem;
-  height: 5rem;
+  height: 5.5rem;
 }
 
 .top .right {
@@ -34,16 +37,161 @@ header .top {
   float: right;
 }
 nav {
-  margin: 1rem 2rem;
+  margin: 0.3rem 1rem;
   padding: 1rem;
   display: flex;
 }
 .nav-link {
-  padding: 0 1rem;
-  font-size: 1.8rem;
+  padding: 0 0.8rem;
+  font-size: 2rem;
   color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
-/* header end */
+
+.container {
+  position: relative;
+  margin-top: 11rem;
+  margin-bottom: 6rem;
+}
+
+/* content-1 start */
+.container .content-1 {
+  margin-top: 1.2rem;
+  height: 50rem;
+  width: 100vw;
+  background-color: #e2e2e2;
+}
+
+.content-1 .content-1-title {
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-1 .boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.box-item {
+  width: 20rem;
+  height: 20rem;
+  background-color: #44948a;
+}
+
+.content-2 {
+  margin-top: 2rem;
+  width: 100vw;
+  height: 35rem;
+  background-color: #336981;
+}
+
+.content-2 .content-2-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-2 .text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.container .content-3 {
+  margin-top: 2rem;
+  height: 50rem;
+  width: 100vw;
+  background-color: #e2e2e2;
+}
+
+.content-3 .content-3-title {
+  font-weight: 700;
+  color: #4f4f4f;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.content-3 .boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.box-item {
+  width: 20rem;
+  height: 20rem;
+  background-color: #44948a;
+}
+
+.content-4 {
+  position: relative;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50rem;
+  width: 1288px;
+  background-color: #e2e2e2;
+}
+.content-4 .content-4-title {
+  font-weight: 700;
+  color: #464646;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.formBox {
+  margin: 1.5rem 0;
+}
+
+.formItem {
+  padding: .1rem 2rem;
+}
+
+input[type="text"] {
+  width: 25rem;
+  height: 3.3rem;
+  background-color: #656565;
+  outline: none;
+  border: none;
+}
+
+textarea {
+  width: 25rem;
+  height: 15rem;
+  background-color: #656565;
+  outline: none;
+  border: none;
+}
+
+.btn{
+  background-color: #656565;
+  outline: none;
+  font-size: 1.2rem;
+  width: 6rem;
+  margin: 0 21rem;
+  height: 2.5rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
 
 footer {
   position: fixed;
@@ -57,4 +205,8 @@ footer {
 
 footer p {
   padding-top: 1.2rem;
+}
+
+footer p span {
+  color: #68c9ff;
 }
