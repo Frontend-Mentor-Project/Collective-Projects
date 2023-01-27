@@ -1,0 +1,60 @@
+@import url("httpsq://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+/* header start */
+header {
+  width: 100vw;
+  height: 10rem;
+  background-color: #a3904d;
+  position: fixed;
+}
+
+header .top {
+  width: 100vw;
+  height: 5rem;
+  background-color: #6e8238;
+}
+
+.top .left {
+  background-color: #00b8ad;
+  float: left;
+  width: 15rem;
+  height: 5rem;
+}
+
+.top .right {
+  background-color: #6e8238;
+  float: right;
+}
+nav {
+  margin: 1rem 2rem;
+  padding: 1rem;
+  display: flex;
+}
+.nav-link {
+  padding: 0 1rem;
+  font-size: 1.8rem;
+  color: white;
+}
+/* header end */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #2e2e2e;
+  width: 100vw;
+  height: 3.6rem;
+  color: white;
+}
+
+footer p {
+  padding-top: 1.2rem;
+}
