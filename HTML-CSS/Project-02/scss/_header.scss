@@ -1,0 +1,37 @@
+header{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.header-btn{
+    background-color: $primary-color;
+    color: #fff;
+    width: 10%;
+    height: 50%;
+    border-radius: 0.5rem;
+    border: transparent;
+}
+
+.header-btn:hover{
+    opacity: 80%;
+}
+
+@media only screen and (max-width: 800px){
+    header{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .header-btn{
+        width: 18%;
+    }
+}

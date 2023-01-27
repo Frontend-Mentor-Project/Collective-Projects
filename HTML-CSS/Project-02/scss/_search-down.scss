@@ -1,0 +1,46 @@
+.search-down {
+  background: linear-gradient(
+    65.5deg,
+    rgb(23, 205, 205) -15.1%,
+    rgb(23, 25, 95) 71.5%
+  );
+  width: 100%;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+}
+
+.search-down__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  flex-wrap: wrap;
+  font-size: 1.8rem;
+  font-weight: bold;
+  place-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.search-down__box {
+  display: flex;
+  gap: 1rem;
+}
+.search-down__input {
+  padding: 0.8rem;
+  width: 80%;
+  border-radius: 0.3rem;
+  border: transparent;
+}
+.search-down__btn {
+  background-color: $primary-color;
+  color: #fff;
+  width: 16%;
+  height: 100%;
+  border-radius: 0.4rem;
+  border: transparent;
+}

@@ -1,0 +1,38 @@
+.icon-div{
+    width: 80%;
+    height: 36vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons  {
+    display: grid;
+    place-items: center;
+
+    i {
+        color: $primary-color;
+        margin: 1rem;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: 1.3rem;
+        font-weight: bold;
+        opacity: 90%;
+    }
+    
+    p {
+        width: 60%;
+        margin: 0.5rem;
+        text-align: center;
+        opacity: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .icon-div{
+        width: 100%;
+    }
+}
