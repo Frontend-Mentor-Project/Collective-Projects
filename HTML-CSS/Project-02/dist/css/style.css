@@ -288,6 +288,7 @@ article {
   height: 150px;
   margin: 0.5rem 0;
   border-radius: 50%;
+  box-shadow: 2px 4px 16px #000;
 }
 .comment-section__person h3 {
   margin: 0.5rem 0;
