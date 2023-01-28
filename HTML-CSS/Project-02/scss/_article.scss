@@ -1,5 +1,5 @@
-article{
-    background: #fff;
+article {
+  background: #fff;
 }
 
 .container {
@@ -9,20 +9,20 @@ article{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 
-  div {
+  .item {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     gap: 0.5rem;
 
-    h2 {
+    &-header {
       width: 80%;
       margin: 0 auto;
       font-weight: bold;
     }
 
-    p {
+    &-text {
       width: 80%;
       margin: 0 auto;
       opacity: 80%;
@@ -46,29 +46,29 @@ article{
   background-size: cover;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
+    height: 1600px;
   }
 
   .item-1 {
     order: 0;
   }
-  .item-2{
+  .item-2 {
     order: 1;
   }
-  .item-3{
+  .item-3 {
     order: 3;
   }
-  .item-4{
+  .item-4 {
     order: 2;
   }
-  .item-5{
+  .item-5 {
     order: 4;
   }
-  .item-6{
+  .item-6 {
     order: 5;
   }
-
 }

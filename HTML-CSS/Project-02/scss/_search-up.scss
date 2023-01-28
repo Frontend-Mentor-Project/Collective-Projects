@@ -1,27 +1,29 @@
-
 .search-up {
-  background: linear-gradient(65.5deg, rgb(23, 205, 205) -15.1%, rgb(23, 25, 95) 71.5%);
-  width: 100%;
-  padding: 6rem;
+  background: linear-gradient(
+    65.5deg,
+    rgb(23, 205, 205) -15.1%,
+    rgb(23, 25, 95) 71.5%
+  );
+  padding: 8rem 6rem;
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
   place-content: center;
-}
 
-.search-up__header {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  color: #fff;
-  flex-wrap: wrap;
-  font-size: 2.5rem;
-  font-weight: bold;
-  place-content: center;
-  text-align: center;
-  padding: 1rem;
+  &__header {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    font-weight: bold;
+    place-content: center;
+    text-align: center;
+    padding: 1rem;
+  }
 }
 
 .search-box {
@@ -30,43 +32,53 @@
   align-items: center;
   gap: 1rem;
   width: 100%;
-}
-.search-box__input {
-  padding: 0.8rem;
-  width: 44%;
-  border-radius: 0.3rem;
-  border: transparent;
-}
 
-.search-box__btn {
+  &__input {
+    padding: 0.8rem;
+    width: 44%;
+    border-radius: 0.3rem;
+    border: transparent;
+  }
+
+  &__btn {
     background-color: $primary-color;
     color: #fff;
-    width: 6%;
+    width: 8%;
     height: 100%;
     border-radius: 0.4rem;
     border: transparent;
-}
-
-@media only screen and (max-width: 992px){
-  .search-up__header{
-    font-size: 2.2rem;
+    opacity: 80%;
   }
 }
 
-@media only screen and (max-width: 800px){
-  .search-up__header{
-    font-size: 2.3rem;
+@media only screen and (max-width: 992px) {
+  .search-up__header {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .search-box__input {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .search-up__header {
+    font-size: 1.8rem;
     width: 100%;
   }
-  .search-box__input{
+  .search-box__input {
     width: 64%;
   }
-  .search-box__btn{
+  .search-box__btn {
     width: 16%;
   }
 }
-@media only screen and (max-width: 600px){
-  .search-up__header{
-    font-size: 2rem;
+@media only screen and (max-width: 600px) {
+  .search-up__header {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .search-box__btn {
+    width: 20%;
   }
 }

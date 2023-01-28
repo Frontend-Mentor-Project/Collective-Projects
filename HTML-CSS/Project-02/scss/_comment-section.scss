@@ -1,0 +1,61 @@
+.comment-section {
+  padding-bottom: 4rem;
+
+  &__header {
+    display: grid;
+    place-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  &__people {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__person {
+    width: 33.33%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    img {
+      width: 150px;
+      height: 150px;
+      margin: 0.5rem 0;
+      border-radius: 50%;
+    }
+
+    h3 {
+      margin: 0.5rem 0;
+    }
+
+    p {
+      width: 60%;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      opacity: 80%;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .comment-section {
+    &__people {
+      width: 100%;
+      flex-direction: column;
+    }
+    &__person {
+      margin: 1rem 0;
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+}

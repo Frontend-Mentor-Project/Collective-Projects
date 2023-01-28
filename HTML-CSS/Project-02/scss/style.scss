@@ -1,12 +1,13 @@
-@import 'reset';
-@import 'header';
-@import 'search-up';
-@import 'icon-div';
-@import 'article';
-@import 'section';
-@import 'search-down';
-@import 'footer';
+@import "reset";
+@import "header";
+@import "search-up";
+@import "icon-div";
+@import "article";
+@import "comment-section";
+@import "search-down";
+@import "footer";
 
-body{
-    background-color: #F8F9FA;
+body {
+  background-color: #f8f9fa;
+  font-family: "Inter", sans-serif;
 }

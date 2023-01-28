@@ -4,19 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Umut Polat">
     <script
       src="https://kit.fontawesome.com/66964cdfbe.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="dist/css/style.css" />
-    <title>Project-02</title>
+    <title>Landing Page</title>
   </head>
   <body>
     <header>
-      <div class="logo">Start Boostrap</div>
-      <button class="header-btn">Sing Up</button>
+      <nav class="nav">
+        <div class="logo">Start Boostrap</div>
+        <button class="header-btn">Sing Up</button>
+      </nav>
     </header>
-    <div class="search-up">
+    <section class="search-up">
       <div class="search-up__header">
         Generate more leads with a professional landing page!
       </div>
@@ -28,67 +31,67 @@
         />
         <button class="search-box__btn">Submit</button>
       </div>
-    </div>
-    <div class="icon-div">
+    </section>
+    <section class="icon-div">
       <div class="icons">
-        <i class="fa-solid fa-folder fa-4x"></i>
-        <h3>Fully Responsive</h3>
-        <p>This theme will look great on any device, nomatter the size!</p>
+        <i class="icons-icon fa-solid fa-folder fa-4x"></i>
+        <h3 class="icons-header">Fully Responsive</h3>
+        <p class="icons-text">This theme will look great on any device, nomatter the size!</p>
       </div>
       <div class="icons">
-        <i class="fa-solid fa-house fa-4x"></i>
-        <h3>Bootsrap 5 Ready</h3>
-        <p>Featuring the lastest build of the new Bootsrap framework!</p>
+        <i class="icons-icon fa-solid fa-house fa-4x"></i>
+        <h3 class="icons-header">Bootsrap 5 Ready</h3>
+        <p class="icons-text">Featuring the lastest build of the new Bootsrap framework!</p>
       </div>
       <div class="icons">
-        <i class="fa-solid fa-folder-open fa-4x"></i>
-        <h3>Ease tp Use</h3>
-        <p>Ready to use with your own content or customize the source files!</p>
+        <i class="icons-icon fa-solid fa-folder-open fa-4x"></i>
+        <h3 class="icons-header">Ease tp Use</h3>
+        <p class="icons-text">Ready to use with your own content or customize the source files!</p>
       </div>
-    </div>
+    </section>
     <article>
       <div class="container">
-        <div class="item-1">
-          <h2>Fully Responsive Desing</h2>
-          <p>
+        <div class="item item-1">
+          <h2 class="item-header">Fully Responsive Desing</h2>
+          <p class="item-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
             aperiam, at aut doloremque, vel dolores quo qui earum nam corporis
             libero quia nesciunt repudiandae necessitatibus illo molestiae
             exercitationem vitae modi deleniti temporibus!
           </p>
         </div>
-        <div class="item-2"></div>
-        <div class="item-3"></div>
-        <div class="item-4">
-          <h2>Fully Responsive Desing</h2>
-          <p>
+        <div class="item item-2"></div>
+        <div class="item item-3"></div>
+        <div class="item item-4">
+          <h2 class="item-header">Fully Responsive Desing</h2>
+          <p class="item-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
             aperiam, at aut doloremque, vel dolores quo qui earum nam corporis
             libero quia nesciunt repudiandae necessitatibus illo molestiae
             exercitationem vitae modi deleniti temporibus!
           </p>
         </div>
-        <div class="item-5">
-          <h2>Fully Responsive Desing</h2>
-          <p>
+        <div class="item item-5">
+          <h2 class="item-header">Fully Responsive Desing</h2>
+          <p class="item-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
             aperiam, at aut doloremque, vel dolores quo qui earum nam corporis
             libero quia nesciunt repudiandae necessitatibus illo molestiae
             exercitationem vitae modi deleniti temporibus!
           </p>
         </div>
-        <div class="item-6"></div>
+        <div class="item item-6"></div>
       </div>
     </article>
-    <section>
-      <div class="section-header"><h1>What people are saying...</h1></div>
-      <div class="section-people">
-        <div class="section-person">
+    <section class="comment-section">
+      <div class="comment-section__header"><h1>What people are saying...</h1></div>
+      <div class="comment-section__people">
+        <div class="comment-section__person">
           <img src="dist/img/project-1.jpg" alt="" />
           <h3>Margaret E.</h3>
           <p>"This is fantastic! Thanks so much guys!"</p>
         </div>
-        <div class="section-person">
+        <div class="comment-section__person">
           <img src="dist/img/project-2.jpg" alt="" />
           <h3>Fred S.</h3>
           <p>
@@ -96,7 +99,7 @@
             landing pages."
           </p>
         </div>
-        <div class="section-person">
+        <div class="comment-section__person">
           <img src="dist/img/project-5.jpg" alt="" />
           <h3>Sarah W.</h3>
           <p>
@@ -105,7 +108,7 @@
         </div>
       </div>
     </section>
-    <div class="search-down">
+    <section class="search-down">
       <div class="search-down__header">Ready to get started? Sing up now!</div>
       <div class="search-down__box">
         <input
@@ -115,9 +118,9 @@
         />
         <button class="search-down__btn">Submit</button>
       </div>
-    </div>
-    <footer>
-        <div class="left-div">
+    </section>
+    <footer class="footer">
+        <div class="footer-information">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
@@ -126,8 +129,8 @@
             </ul>
             <p><span>&#169</span> your Website 2023 all Right Reserved</p>
         </div>
-        <div class="right-div">
-            <ul>
+        <div class="footer-socialMedia">
+            <ul class="footer-socialMedia__icons">
                 <li><i class="fa-brands fa-facebook fa-2x"></i></li>
                 <li><i class="fa-brands fa-twitter fa-2x"></i></li>
                 <li><i class="fa-brands fa-square-instagram fa-2x"></i></li>
