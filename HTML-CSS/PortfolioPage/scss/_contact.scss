@@ -1,0 +1,88 @@
+.contact {
+  padding: 1rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  &__title {
+    color: $darkGrey;
+    font-size: $font-xlg;
+    font-weight: bold;
+    padding: 1rem;
+  }
+
+  &__icon {
+    @include icon($darkGrey);
+  }
+
+  &__form {
+    width: 45%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__label {
+      font-size: 1.2rem;
+      opacity: 80%;
+    }
+
+    &__input {
+      width: 100%;
+      height: 2rem;
+      border: transparent;
+      border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      outline: 0;
+      font-size: 1.6rem;
+    }
+    &__textarea {
+      width: 100%;
+      height: 6rem;
+      border: transparent;
+      border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+      margin-bottom: 1rem;
+      outline: 0;
+      font-size: 1.6rem;
+    }
+
+    &__btn {
+      font-size: 1.4rem;
+      width: 20%;
+      height: 8vh;
+      background: $lightGreen;
+      border-radius: 0.5rem;
+      color: $clr-white;
+      opacity: 0.8;
+      border: transparent;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact__form {
+        width: 60%;
+    
+        &__btn {
+          width: 30%;
+        }
+      }
+}
+@media only screen and (max-width: 768px) {
+    .contact__form {
+        width: 70%;
+    
+        &__btn {
+          width: 35%;
+        }
+      }
+}
+@media only screen and (max-width: 588px) {
+  .contact__form {
+    width: 80%;
+
+    &__btn {
+      width: 40%;
+    }
+  }
+}

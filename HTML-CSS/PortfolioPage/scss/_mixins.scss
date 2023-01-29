@@ -1,0 +1,56 @@
+@mixin line($color) {
+  width: 10vh;
+  height: 0.2rem;
+  border-radius: 1rem;
+  background: $color;
+}
+
+@mixin icon($color) {
+  color: $color;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  &__line{
+    @include line($color);
+  }
+}
+
+// &__icon {
+//   color: $darkGrey;
+//   display: flex;
+//   gap: 1rem;
+//   justify-content: center;
+//   align-items: center;
+
+//   &__line {
+//     width: 10vh;
+//     height: 0.2rem;
+//     border-radius: 1rem;
+//     background: $darkGrey;
+//   }
+// }
+
+// @mixin line($color) {
+//     width: 10vh;
+//     height: 0.2rem;
+//     border-radius: 1rem;
+//     background: $color;
+//   }
+
+//   @mixin icon($color) {
+//     color: $color;
+//     display: flex;
+//     gap: 1rem;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+// &__icon{
+//   @include icon(blue);
+
+//   &__line{
+//       @include line(yellow);
+//   }
+// }

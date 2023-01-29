@@ -1,0 +1,30 @@
+.banner{
+    background: $lightGreen;
+    padding: 4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    &__header{
+        color: $clr-white;
+        padding: 1rem;
+        font-size: $font-xxlg;
+        font-weight: bold;
+    }
+
+    &__icon{
+        @include icon($clr-white);
+    }
+
+    &__text{
+        color: $clr-white;
+        margin-top: 2rem;
+    }
+}
