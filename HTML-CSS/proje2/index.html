@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Web Design Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
 
@@ -15,11 +16,11 @@
             <div class="nav-itemleft"></div>
         </div>
 
-        <nav class="nav">
-            <div class="option"> <a href="#home" >HOME</a></div>
-            <div class="option"> <a href="#about" >ABOUT</a></div>
-            <div class="option"> <a href="#services" >SERVICES</a></div>
-            <div class="option"> <a href="#contact" >CONTACT</a></div>
+        <nav class="menu">
+            <div class="menu-option"> <a href="#home" >HOME</a></div>
+            <div class="menu-option"> <a href="#about" >ABOUT</a></div>
+            <div class="menu-option"> <a href="#services" >SERVICES</a></div>
+            <div class="menu-option"> <a href="#contact" >CONTACT</a></div>
         </nav>
 
     </header>
@@ -38,7 +39,7 @@
     <section>
         <div class="about">
             <h1 class="about-h1">ABOUT</h1>
-            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
                 into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
@@ -55,7 +56,7 @@
                 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
                 Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
                 typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-                an unknown printer took a galleyaset sheets containing Lorem Ipsum versions of Lorem Ipsum."
+                an unknown printer took a galleyaset sheets containing Lorem Ipsum versions of Lorem Ipsum.
             </p>
         </div>
     </section>
@@ -76,16 +77,17 @@
     <section class="contact"> CONTACT
 
             <div class="contact-grid">
-                <label> Name</label>
+                <label> Name: </label>
                 <input class="name" type="text">
 
-                <label> Surname </label>
+                <label> Surname: </label>
                 <input class="surname" type="text">
 
-                <label> Message</label>
+                <label> Message: </label>
                 <input class="message" type="text">
 
-                <label><input class="send" type="button" value="Send"></label>
+                <label>
+                <button class="send" value="send"> </button> </label>
             </div>
     </section>
 </div>
