@@ -2,10 +2,6 @@
     width: auto;
 }
 
-a{
-    text-decoration: none;
-}
-
 /*Header codes*/
 
 .header{
@@ -29,24 +25,33 @@ a{
     width:20%;
 }
 
-nav {
+.menu {
     background-color: #A3904D;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.menu-option {
+
     height: auto;
     width: auto;
-    display: flex;
-    gap: 36px;
+    gap: 44px;
     color: #fff;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
 
-.nav .option a {
+.menu .menu-option a {
     width: auto;
     color: #fff;
-    font-family:sans-serif;
+    font-family:Inter, sans-serif;
     font-size: 36px;
-    line-height: 44px;
+    font-weight: 700;
     text-align: left;
-    padding: 0.5rem;
-    margin-left: 30px;
+    margin-left: 59px;
+    text-decoration: none;
 }
 
 .home {
@@ -155,7 +160,6 @@ section .about {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-    row-gap: 20px;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -171,18 +175,23 @@ section .about {
     height: 30px;
     background-color: #656565;
     justify-content: start;
+    border: none;
+    margin-bottom: 17px;
 }
 
 .contact .surname{
     width:35%;
     height: 30px;
     background-color: #656565;
+    border: none;
+    margin-bottom: 17px;
 }
 
 .contact .message{
     width:35%;
     height: 120px;
     background-color: #656565;
+    border: none;
 }
 
 .contact .send{
@@ -190,6 +199,8 @@ section .about {
     height: auto;
     margin-left: 32%;
     background-color: #656565;
+    color: white;
+    border: none;
 }
 /*Header codes end*/
 
@@ -202,10 +213,12 @@ section .about {
     font-size: 16px;
     margin-top: 50px;
     padding: 25px;
+    text-decoration: none;
 }
 
 .footer .footer-a{
     color: #68C9FF;
+    text-decoration: none;
 }
 
 
