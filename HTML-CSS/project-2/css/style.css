@@ -27,14 +27,14 @@ header .top {
   background-color: #6e8238;
 }
 
-.top .left {
+.top .top__left {
   background-color: #00b8ad;
   float: left;
   width: 15%;
   height: 5.5rem;
 }
 
-.top .right {
+.top .top__right {
   background-color: #6e8238;
   float: right;
 }
@@ -45,7 +45,7 @@ nav {
   display: flex;
 }
 
-.nav-link {
+.nav__link {
   padding: 0 0.8rem;
   font-size: 2rem;
   color: white;
@@ -67,7 +67,7 @@ nav {
   background-color: #e2e2e2;
 }
 
-.content-title {
+.content__title {
   font-weight: 700;
   font-size: 4rem;
   text-align: center;
@@ -89,7 +89,7 @@ nav {
   margin-top: 2rem;
 }
 
-.box-item {
+.box__item {
   width: 20rem;
   height: 20rem;
   background-color: #44948a;
@@ -100,7 +100,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   width: 100vw;
   text-align: center;
   background-color: #336981;
@@ -118,7 +118,7 @@ nav {
 }
 
 .container .content-3 {
-  margin-top: 2rem;
+  margin-top: 3rem;
   height: 50rem;
   width: 100vw;
   background-color: #e2e2e2;
@@ -127,17 +127,17 @@ nav {
 .content-3 .boxes {
   display: flex;
   justify-content: space-around;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 
-.box-item {
+.box__item {
   width: 20rem;
   height: 20rem;
   background-color: #44948a;
 }
 
 .content-4 {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
   height: 50rem;
@@ -153,11 +153,11 @@ nav {
   margin-top: 2rem;
 }
 
-.formBox {
+.form__box {
   margin: 1.5rem 0;
 }
 
-.formItem {
+.form__item {
   padding: 0.1rem 2rem;
 }
 
@@ -183,7 +183,7 @@ input[type="text"] {
   font-size: 1.2rem;
   width: 6rem;
   margin: 0 21rem;
-  height: 2.5rem;
+  height: 3rem;
   border: none;
   color: white;
   font-weight: bold;
@@ -202,20 +202,20 @@ input[type="text"] {
   color: white;
 }
 
-.footer .footerText {
+.footer .footer__text {
   padding-top: 1.2rem;
 }
 
-.footer .footerText .footerSpan {
+.footer .footer__text .footer__span {
   color: #68c9ff;
 }
 
 @media (max-width: 768px) {
-  .nav-link {
+  .nav__link {
     font-size: 1.35rem;
   }
 
-  .box-item {
+  .box__item {
     width: 25%;
     margin-top: 2rem;
     height: 12rem;
