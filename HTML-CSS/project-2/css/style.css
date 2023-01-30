@@ -141,7 +141,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
   height: 50rem;
-  width: 1288px;
+  width: 100vw;
   background-color: #e2e2e2;
 }
 
@@ -149,7 +149,7 @@ nav {
   margin-top: 1rem;
 }
 
-form {
+.form {
   margin-top: 2rem;
 }
 
@@ -169,7 +169,7 @@ input[type="text"] {
   border: none;
 }
 
-textarea {
+.textarea {
   width: 25rem;
   height: 15rem;
   background-color: #656565;
@@ -193,7 +193,7 @@ textarea {
   cursor: pointer;
 }
 
-footer {
+.footer {
   bottom: 0;
   text-align: center;
   background-color: #2e2e2e;
@@ -202,11 +202,11 @@ footer {
   color: white;
 }
 
-footer p {
+.footer .footerText {
   padding-top: 1.2rem;
 }
 
-footer p span {
+.footer .footerText .footerSpan {
   color: #68c9ff;
 }
 
@@ -223,5 +223,9 @@ footer p span {
   .content-4{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
