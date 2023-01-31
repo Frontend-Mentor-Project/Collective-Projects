@@ -73,7 +73,7 @@ ul {
 }
 /* secondary_header end */
 
-/* sectionA */
+/* aboutSection */
 .row {
     padding-block:80px;
     background-color: whitesmoke;
@@ -114,27 +114,30 @@ ul {
 .icon_box p {
     color:gray;
 }
-/* sectionA end */
+/* aboutSection end */
 
 .rowa {
     display: flex;
 }
-.sectionB_left {
+.introductionSctn_left {
     flex: 50%;
     height:300px;
     background-color: aliceblue;
     /* padding:40px; */
     text-align:left;
 }
-.sectionB_right {
+.introductionSctn_right {
     flex: 50%;
     height: 300px;
     background-image:url("img/HVLYLDZ_Ekip\,1637_big.png");
     background-size: cover;
     background-position:top;
 }
+.opinionSctn img {
+     border-radius:50%;;
+}
 
-.sectionD {
+.connectionSctn {
     height: 50vh;
     background-image:linear-gradient(to bottom ,rgba(125, 195, 242, 0.2),rgba(87, 144, 205, 0.2)),url("https://picsum.photos/id/26/1500/800");
     background-position:center;
@@ -146,7 +149,7 @@ ul {
 .item2 {
    text-align:right;
 }
-.item2 li {
+.item2 li,.item li {
     padding-inline:8px;
 }
 
@@ -156,11 +159,11 @@ ul {
 footer a {
     color: blue;
 }
-.item li::before {
+/* .item li::before {
 
         content:'\2e' ;
         padding: 4px;
         font-size: 30px;
         color: black;
     
-}
+} */
