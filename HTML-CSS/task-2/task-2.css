@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #6E8238;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: #00B7AC;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #A3904D;
+}
+nav ul{
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #FFFF;
+    display: inline-block;
+    font-size: 2em;
+    padding: 16px 20px;
+    
+}
+nav ul li a:hover{
+    background-color: #ff9933;
+    color: #FFFF;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    
+
+}
+
+#home-conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: #E2E2E2;
+    
+}
+.kare-conteiner{
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+    
+}
+.kare-conteiner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#home-conteiner h2{
+    font-size: 4em;
+    text-align: center;
+    color: #4F4F4F;
+    padding:0 20px;
+    margin-bottom: 30px;
+}
+.kare{
+    width: 300px;
+    height: 300px;
+    background-color: #44948A;
+    float: left;
+    margin: auto;
+    margin-bottom:30px ;
+}
+#home-conteiner .kare-1,.kare-2,.kare-4,.kare-5{
+    margin-right: 19%;
+    
+}
+
+
+section#about{
+    width: 100%;
+    height: 100vh;
+    background-color: #336981;
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+}
+section#about h2{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+section#about{
+    color: white;
+}
+
+#services{
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    background-color: #E2E2E2;
+}
+#services::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#services h1{
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 4em;
+    padding: 0;
+    
+    
+}
+#services .kare-services{
+    width: 300px;
+    height: 300px;
+    background-color: #44948A;
+    float: left;
+    margin-bottom:30px ;
+}
+#services .kare-conteiner{
+    width: 100%;
+    height: 100%;
+    padding:50px;
+}
+
+#services .kare-1-services,.kare-2-services,.kare-3-services,.kare-5-services,.kare-6-services,.kare-7-services  {
+    margin-right:125px;
+
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+}
+
+#contact{
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+   
+    
+}
+#contact h3{
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 4em;
+    padding: 20px;
+
+}
+
+.contact-send{
+    display: inline-block;
+    padding-left: 40px;
+    position: relative;
+}
+.contact-send form label{
+    font-size: 1.5em;
+}
+.contact-send form input{
+    width: 400px;
+    height: 40px;
+    background-color: #656565;
+}
+.contact-send form textarea{
+    background-color: #656565;
+}
+.contact-send form button{
+    display: inline-block;
+    position: absolute;
+    padding: 10px 25px;
+    right: 0;
+    bottom: -1;
+    color: white;
+    background-color: #656565;
+
+}
