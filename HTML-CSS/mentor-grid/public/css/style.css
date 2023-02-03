@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app.box_container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template:
+    "a b b c c"
+    "a d e e f"
+    "g d e e f"
+    "g h h i f"
+  ;
+  gap: 20px;
+  background-color: #333333;
+}
+
+.box_container__box-1 {
+  background-color: tomato;
+  grid-area: a;
+}
+
+.box_container__box-2 {
+  background-color: aqua;
+  grid-area: b;
+}
+
+.box_container__box-3 {
+  background-color: burlywood;
+  grid-area: c;
+}
+
+.box_container__box-4 {
+  background-color: burlywood;
+  grid-area: d;
+}
+
+.box_container__box-5 {
+  background-color: white;
+  grid-area: e;
+}
+
+.box_container__box-6 {
+  background-color: tomato;
+  grid-area: f;
+}
+
+.box_container__box-7 {
+  background-color: white;
+  grid-area: g;
+}
+
+.box_container__box-8 {
+  background-color: tomato;
+  grid-area: h;
+}
+
+.box_container__box-9 {
+  background-color: aqua;
+  grid-area: i;
+}
