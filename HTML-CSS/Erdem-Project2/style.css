@@ -1,0 +1,134 @@
+.header {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.header-col-1 {
+  background: #00B8AD;
+  height: 165px;
+}
+
+.header-col-2 {
+  background: #6E8238;
+  height: 165px;
+}
+
+.navbar {
+  height: 96px;
+  background: #A3904D;
+  display: flex;
+  align-items: center;
+  padding-left: 59px;
+  margin-bottom: 45px;
+}
+
+.navbar-item {
+  margin-right: 44px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.home-container {
+  
+}
+
+.header-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #4F4F4F;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.grid-item {
+  background: #44948A;
+  height: 180px;
+  width: 188px;
+}
+
+.grid{
+  justify-items: center
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.about-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container{
+  padding-top: 24px;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-bottom: 24px;
+  background: #E2E2E2;
+  margin-bottom: 20px;
+}
+
+.about-container{
+  background: #336981;
+}
+
+.services-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.contact-form-input,
+.contact-form-textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.contact-form-input {
+  height: 50px;
+}
+
+.contact-form-textarea {
+  min-height: 157px;
+}
+
+.contact-form-button-group {
+  text-align: right;
+  
+}
+
+.contact-form{
+  max-width: 381px;
+ }
+
+.footer{
+  height: 100px;
+
+  background: #2E2E2E;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+  vertical-align: middle;
+  text-align: center;
+ }
