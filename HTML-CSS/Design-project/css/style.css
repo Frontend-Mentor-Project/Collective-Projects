@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+h5 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  color: #464646;
+}
+header {
+  display: flex;
+  background-color: #6e8238;
+  width: 100%;
+  height: 261px;
+  flex-direction: column;
+}
+.logo {
+  width: 15%;
+  height: 165px;
+  min-width: 275px;
+  background-color: #00b8ad;
+}
+.header-menu ul {
+  background-color: #a3904d;
+  padding: 26px 59px;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2.28rem;
+  font-weight: 700;
+}
+.header-menu ul li {
+  margin-right: 5%;
+}
+.header-menu ul li:hover {
+  cursor: pointer;
+}
+.news-container {
+  background-color: #fff;
+  height: 880px;
+  display: flex;
+  align-items: center;
+}
+.news {
+  height: 795px;
+  background-color: #d9d9d9;
+  width: 100%;
+  margin-top: 1%;
+}
+.news-gridarea {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 10%;
+  padding: 2%;
+}
+.news-content {
+  width: 85%;
+  background-color: #44948a;
+  height: 281px;
+}
+.About {
+  height: 452px;
+  padding: 2%;
+  text-align: center;
+  color: #fff;
+  background-color: #336981;
+  font-size: 1.5rem;
+  line-height: 200%;
+  overflow: hidden;
+}
+.About h5 {
+  margin-bottom: 2%;
+  color: #fff;
+}
+.Services {
+  height: 795px;
+  background-color: #d9d9d9;
+  margin-top: 2%;
+  padding-top: 2%;
+}
+.services-gridarea {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5%;
+  padding: 2%;
+}
+.Services-content {
+  width: 95%;
+  height: 291px;
+  background-color: #44948a;
+}
+.Contact {
+  height: 535px;
+  padding: 2%;
+  background-color: #d9d9d9;
+  margin-top: 4%;
+}
+.form-area {
+  width: 30%;
+  height: 300px;
+  position: relative;
+}
+.Contact h5 {
+  margin-bottom: 1%;
+}
+.form-area form {
+  display: flex;
+  flex-direction: column;
+}
+.form-area-input {
+  height: 50px;
+  background-color: #656565;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  margin-bottom: 2%;
+  color: #fff;
+  padding: 5%;
+}
+.message-input{
+  height: 157px;
+  background-color: #656565;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  margin-bottom: 2%;
+  color: #fff;
+  padding: 5%;
+}
+.form-area button {
+  width: 25%;
+  height: 38px;
+  background-color: #656565;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: -90px;
+  right: 0%;
+}
+footer {
+  height: 100px;
+  background-color: #2e2e2e;
+  padding:5% 40%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #fff;
+}
+footer span {
+  color: #68c9ff;
+}
