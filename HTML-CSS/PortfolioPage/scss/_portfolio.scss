@@ -1,0 +1,36 @@
+.portfolio {
+  padding: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  &__title {
+    color: $darkGrey;
+    font-size: $font-xlg;
+    font-weight: bold;
+    padding: 1rem;
+  }
+
+  &__icon {
+    @include icon($darkGrey);
+  }
+
+  &__content {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+    &__img {
+      img {
+        width: 300px;
+        height: 240px;
+        border-radius: 1rem;
+        object-fit: cover;
+      }
+    }
+  }
+}

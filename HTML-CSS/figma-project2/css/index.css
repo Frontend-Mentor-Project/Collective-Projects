@@ -1,0 +1,240 @@
+
+/* *************************COMMON CSS******************* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --white-color:  #ffffff;
+    --primary-color:  #F0F8FF;
+    --secondary-color: #405cf5;
+    --title-color: #252525;
+    --text-color: grey;
+
+    --body-font-family:             'DM Sans', sans-serif;
+
+    --font-weight-normal:           400;
+    --font-weight-medium:           500;
+    --font-weight-bold:             700;
+    
+}
+
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bg-image.jpg');
+    background-attachment: fixed;
+}
+
+.title {
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text {
+    font-size: 1rem;
+    color: var(--text-color) ;
+    font-weight: 500;
+    
+}
+
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.ml-100{
+    margin-left: 100px;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    border-width: 0;
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 100%;
+    text-align: center;
+  }
+
+.img-fluid {
+    object-fit: cover;
+    max-width:100%;
+    max-height:100%;
+}
+
+/* *************************HEADER CSS******************* */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    position: sticky;
+    top: 0px;
+}
+
+.header-item {
+    margin: 1rem 13%;
+    padding: 5px 10px;
+}
+
+/* *************************HOME CSS******************* */
+  
+.main-container {
+    margin: 10% 20%;
+    max-width: 1000px;
+}
+
+
+.main-container > div > input {
+    margin-left: 25%;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.main-container > div > button {
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.main-container > h1 {
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.main-container > h2 {
+    color: var(--white-color);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px 0;
+
+
+}
+
+
+/* *************************FEATURES CSS******************* */
+
+.features-section{
+    margin-top: 50vh;
+    background-color: var(--primary-color);
+    padding: 150px 50px;   
+}
+
+.features-container{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.col{
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.col img {
+    padding: 10px;
+}
+
+/* *************************GRID CSS******************* */
+
+
+.grid-section{
+    background-color: var(--white-color);
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.grid-section > div {
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+}
+
+
+
+/**************************COMMENTS CSS********************/
+
+
+.comments-section{
+    background-color: var(--primary-color);
+    padding: 50px;   
+}
+
+.comments-container{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.avatar-img {
+    height: 200px;
+}
+
+/**************************FOOTER CSS********************/
+
+
+.footer-section {
+    background-color: var(--primary-color);
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu-item {
+    padding: 10px;
+    font-weight: 700;
+}
+
+.footer-menu-item a {
+    color: var(--secondary-color);
+}
+
+.icon {
+    height: 30px;
+    margin: 20px 10px;
+}
+
+.footer-container {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

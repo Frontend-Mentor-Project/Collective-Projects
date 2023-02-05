@@ -1,0 +1,169 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.main_header {
+    background-color:whitesmoke;
+    padding:8px 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* display: flex;
+    justify-content:space-around; */
+    align-items: center;
+
+}
+.main_nav{
+    
+    display: inline-block;
+    width: calc(90% - 100px); 
+    text-align: right;
+}
+.main_header__logo {
+    text-transform:capitalize;
+    margin-left:64px;
+    font-weight: bolder;
+    color: black;
+}
+.navbtn {
+    padding:12px 8px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* secondary_header */
+.secondary_header {
+    height: 80vh;
+    background-image:linear-gradient(to bottom ,rgba(125, 195, 242, 0.2),rgba(87, 144, 205, 0.2)),url("https://picsum.photos/id/26/1500/800");
+    background-position:center;
+    background-attachment: fixed;
+
+    position: relative;
+}
+.message_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    line-height:150%;
+    /* text-indent:8px; */
+
+}
+.message input {
+    width:60%;
+    padding: 12px 20px;
+    border: none;
+    margin-right:8px;
+    border-radius: 4px;
+}
+/* secondary_header end */
+
+/* aboutSection */
+.row {
+    padding-block:80px;
+    background-color: whitesmoke;
+ 
+}
+.row::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.container {
+    margin:0px auto;
+    width:1000px;
+}
+.col {
+    text-align: center;
+}
+.col-3 {
+    float: left;
+    width:33.3%;
+    /* margin-inline:px; */
+}
+.col-2 {
+    float:left;
+    width: 50%;
+}
+.icon_box {
+   
+    
+    font-size: 13px;
+    width:300px;
+    text-align: center;
+}
+
+.icon_box i {
+    color: #66c2ff;
+}
+.icon_box p {
+    color:gray;
+}
+/* aboutSection end */
+
+.rowa {
+    display: flex;
+}
+.introductionSctn_left {
+    flex: 50%;
+    height:300px;
+    background-color: aliceblue;
+    /* padding:40px; */
+    text-align:left;
+}
+.introductionSctn_right {
+    flex: 50%;
+    height: 300px;
+    background-image:url("img/HVLYLDZ_Ekip\,1637_big.png");
+    background-size: cover;
+    background-position:top;
+}
+.opinionSctn img {
+     border-radius:50%;;
+}
+
+.connectionSctn {
+    height: 50vh;
+    background-image:linear-gradient(to bottom ,rgba(125, 195, 242, 0.2),rgba(87, 144, 205, 0.2)),url("https://picsum.photos/id/26/1500/800");
+    background-position:center;
+    background-attachment: fixed;
+
+    position: relative;
+}
+
+.item2 {
+   text-align:right;
+}
+.item2 li,.item li {
+    padding-inline:8px;
+}
+
+.item li,.item2 li{
+    display: inline-block;
+}
+footer a {
+    color: blue;
+}
+/* .item li::before {
+
+        content:'\2e' ;
+        padding: 4px;
+        font-size: 30px;
+        color: black;
+    
+} */

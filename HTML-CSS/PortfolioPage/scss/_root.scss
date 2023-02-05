@@ -1,0 +1,62 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Public+Sans:wght@300;400&display=swap');
+
+/*
+=============== 
+Variables
+===============
+*/
+
+// Colors
+$darkBlue: #2C3E50;
+$darkGrey: #363636;
+$lightGrey: #6C757D;
+$lightGreen: #31BC9C;
+
+// Font Sizes
+$font-sm: 0.875rem; // 14px
+$font-med: 1.125rem; // 18px
+$font-lg: 1.65rem;
+$font-xlg: 2.25rem;
+$font-xxlg: 3.25rem;
+
+// General Using
+$clr-white: #fff;
+$clr-black: #222;
+$ff-primary: 'Inter', sans-serif;
+$ff-secondary: 'Public Sans', sans-serif;
+$transition: all 0.3s linear;
+$spacing: 0.1rem;
+$radius: 0.25rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+$max-width: 1170px;
+$fixed-width: 620px;
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: $ff-primary;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }

@@ -1,0 +1,46 @@
+.search-down {
+  background: linear-gradient(
+    65.5deg,
+    rgb(23, 205, 205) -15.1%,
+    rgb(23, 25, 95) 71.5%
+  );
+  width: 100%;
+  padding: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    font-weight: bold;
+    place-content: center;
+    text-align: center;
+    padding: 1rem 2.4rem;
+  }
+
+  &__box {
+    display: flex;
+    gap: 1rem;
+  }
+  &__input {
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: transparent;
+  }
+  &__btn {
+    background-color: $primary-color;
+    color: #fff;
+    width: 22%;
+    border-radius: 0.4rem;
+    border: transparent;
+    opacity: 80%;
+  }
+}
