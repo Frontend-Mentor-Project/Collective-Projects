@@ -27,3 +27,13 @@
     font-weight: 200;
     font-size: 1.2rem;
 }
+
+.content-5 {
+  background: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+  background-size: cover;
+}
+
+.content-5__input{
+  width: 25rem;
+  height: 4rem;
+}
