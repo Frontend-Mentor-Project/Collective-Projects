@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(65,60,60);
+    height: 100vh;
+}
+
+.bg-red{
+    background-color: rgb(241,69,61);
+}
+
+.bg-blue{
+    background-color: rgb(44,197,207);
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-yellow{
+    background-color: rgb(214,178,106);
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template: repeat(4, auto) / repeat(5, auto);
+    grid-template-areas: 
+    "item1 item2 item2 item3 item3"
+    "item1 item4 item5 item5 item6"
+    "item7 item4 item5 item5 item6"
+    "item7 item8 item8 item9 item6" ;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.item1{
+    grid-area: item1;
+}
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+.item5{
+    grid-area: item5;
+}
+
+.item6{
+    grid-area: item6;
+}
+
+.item7{
+    grid-area: item7;
+}
+
+.item8{
+    grid-area: item8;
+}
+
+.item9{
+    grid-area: item9;
+}
